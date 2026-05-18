@@ -4,21 +4,6 @@ This project compares several supervised machine learning models for binary brea
 
 The best model in the original experiment was a Random Forest classifier without SMOTE, reaching 97.14% test accuracy on the held-out test set.
 
-## Results
-
-| Model | CV Accuracy | Test Accuracy |
-| --- | ---: | ---: |
-| Random Forest, no SMOTE | 97.18% | 97.14% |
-| Random Forest, SMOTE | 97.25% | 96.43% |
-| SVM, SMOTE | 97.28% | 96.43% |
-| Extra Trees, SMOTE | 97.78% | 96.43% |
-| Extra Trees, no SMOTE | 97.42% | 96.43% |
-| SVM, no SMOTE | 97.03% | 95.71% |
-| Histogram Gradient Boosting, no SMOTE | 96.96% | 95.71% |
-| Histogram Gradient Boosting, SMOTE | 96.85% | 95.71% |
-| Decision Tree, SMOTE | 95.56% | 92.14% |
-| Decision Tree, no SMOTE | 95.60% | 92.14% |
-
 Final Random Forest test-set metrics:
 
 | Class | Precision | Recall | F1-score | Support |
